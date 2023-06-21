@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <script src="script.js"></script>
+    <title>Jenny's Shop</title>
+</head>
+<body>
+<header>
+    <h1>Jenny Book Store</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="https://www.linkedin.com/in/msarthaksharma/">Social Media</a></li>
+            <li><a href="https://msarthaksharma.github.io/myweb/">Student Info</a></li>
+          </ul>
+        </nav>
+</header>
+<main>
+<div class="parent">
+<div class="container" id="input">
+    <div class="product">
+        <form method="GET" onsubmit="return validateForm()">
+            <h3>Place Your Order Below</h3>
+            <p>Please enter the minimum quantity for each product</p>
+            <label>Book Quantity<input id="book" type="text"/></label><br>
+            <label id="bookerr"></label><br>
+            <label>Bag Quantity <input id="bag" type="text"/></label><br>
+            <label id="bagerr"></label></label><br>
+            <label>Pen Quantity <input id="pen" type="text"/></label><br>
+            <label id="penerr"></label><br>
+            <button type="submit">Submit</button>
+            <p class="note"><span> Note: </span>Address Will and Contact info will be confirmed by our employee after invoice generation. Click on Submit to generte invoice.</p>
+        </form>
+    </div>
+</div>
+<div class="container" id="output">
+    <div class="product">
+            <h3>Your Invoice is Generated</h3>
+            <p class="bookinvoice"></p>
+            <p class="peninvoice"></p>
+            <p class="baginvoice"></p>
+            <p class="before tax"></p>
+            <p class="taxamount"></p>
+            <p class="total"></p>
+            <p class="customer"></p>
+    </div>
+</div>
+</div>
+<footer>©️All Rights Reserved By Jenny BookStore</footer>
+</body>
+</html>

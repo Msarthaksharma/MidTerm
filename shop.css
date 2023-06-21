@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    background-color: #000000;
+    min-height:90px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    text-align: center;
+    color:#E6F040;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+   float:left;
+   margin-right:35px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;  
+    color:#E6F040;
+  }
+.container{display:flex;justify-content:center;flex-wrap:wrap;}
+.product {
+    background-color:#E6F040;
+    margin:20px 20px;
+    height:500px;
+    width:400px;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+  }
+  #output{display:none;}
+  .product h3{color:#000;}
+  #bookerr{font-size: 10px;color:red;}
+  #bagerr{font-size: 10px;color:red;}
+  #penerr{font-size: 10px;color:red;}
+  input{margin:5px;font-size:14px; color:black;}
+  button{height:30px;width:60px;margin:20px;}
+  .note{color:red;font-size:12px;}
+  span{color:#000000;}
+  footer{min-height:30px;background:#000;color:#E6F040;text-align: center;}
